@@ -11,6 +11,8 @@ import 'package:dart_classes/dart_classes_redirecting_constructors.dart'
     as dart_classes_redirecting_constructors;
 import 'package:dart_classes/dart_classes_constant_constructors.dart'
     as dart_classes_constant_constructors;
+import 'package:dart_classes/dart_classes_factory_constructors.dart'
+    as dart_classes_factory_constructors;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_classes.calculate()}!');
@@ -26,4 +28,7 @@ void main(List<String> arguments) {
   print(dart_classes_redirecting_constructors.namedConstructorDisplay());
 
   print(dart_classes_constant_constructors.cartesianPoint());
+
+  print('************************************************************');
+  print(dart_classes_factory_constructors.factoryPoint());
 }
