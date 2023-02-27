@@ -15,6 +15,8 @@ import 'package:dart_classes/dart_classes_factory_constructors.dart'
     as dart_classes_factory_constructors;
 import 'package:dart_classes/dart_classes_singleton_pattern.dart'
     as dart_classes_singleton_pattern;
+import 'package:dart_classes/dart_classes_instance_methods_operators_static.dart'
+    as dart_classes_instance_methods_operators_static;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_classes.calculate()}!');
@@ -36,4 +38,8 @@ void main(List<String> arguments) {
 
   print('************************************************************');
   print(dart_classes_singleton_pattern.singletonToDisplay());
+
+  print('************************************************************');
+  print(
+      dart_classes_instance_methods_operators_static.instMethOperatorsStatic());
 }
