@@ -19,6 +19,8 @@ import 'package:dart_classes/dart_classes_instance_methods_operators_static.dart
     as dart_classes_instance_methods_operators_static;
 import 'package:dart_classes/dart_classes_getters_and_setters.dart'
     as dart_classes_getters_and_setters;
+import 'package:dart_classes/dart_classes_static_methods.dart'
+    as dart_classes_static_methods;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_classes.calculate()}!');
@@ -47,4 +49,7 @@ void main(List<String> arguments) {
 
   print('************************************************************');
   print(dart_classes_getters_and_setters.yomDisplay());
+
+  print('************************************************************');
+  print(dart_classes_static_methods.staticMethodsDisplay());
 }
