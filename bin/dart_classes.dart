@@ -13,6 +13,8 @@ import 'package:dart_classes/dart_classes_constant_constructors.dart'
     as dart_classes_constant_constructors;
 import 'package:dart_classes/dart_classes_factory_constructors.dart'
     as dart_classes_factory_constructors;
+import 'package:dart_classes/dart_classes_singleton_pattern.dart'
+    as dart_classes_singleton_pattern;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_classes.calculate()}!');
@@ -31,4 +33,7 @@ void main(List<String> arguments) {
 
   print('************************************************************');
   print(dart_classes_factory_constructors.factoryPoint());
+
+  print('************************************************************');
+  print(dart_classes_singleton_pattern.singletonToDisplay());
 }
